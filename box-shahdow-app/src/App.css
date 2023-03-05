@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Controls{
+  width: 30%;
+  display: flex;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  padding: 30px 20px;
+  
+}
+input [type="range"]{
+  width: 100%;
+}
+.box{
+  width: 50%;
+  height: 400px;
+  /* border: 1px solid black; */
+}
+.innerBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
